@@ -1,0 +1,119 @@
+
+.main-slider-two__bg{
+    background-image: url(./Images/Banner1.png);
+     position: absolute;
+    top: 105px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.main-slider-two .item {
+    background-color: var(--treck-black);
+    position: relative;
+    padding-top: 292px;
+    padding-bottom: 40px;
+    z-index: 10;
+}
+.main-slider-two__shape-1 {
+    position: absolute;
+    top: 170px;
+    left: 421px;
+    z-index: 5;
+}
+.main-slider-two__content {
+    position: relative;
+    display: block;
+    z-index: 15;
+}
+.main-slider-two__shadow {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .80;
+    z-index: 1;
+}
+.main-slider-two__title {
+    position: relative;
+    font-size: 80px;
+    color: #fff;
+    font-weight:20px;
+    line-height: 90px;
+    letter-spacing: -0.04em;  
+}
+.main-slider-two__title h2{
+    color: #000;
+}
+.main-slider-two__points ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Distribute items equally along the main axis */
+    padding: 0; /* Remove default padding */
+}
+
+.main-slider-two__points li {
+    position: relative;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.main-slider-two__points li+li {
+    margin-left: 16px;
+}
+
+.main-slider-two__points li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.icon img{
+    width: 20px;
+}
+.main-slider-two__points li .icon span {
+    font-size: 9px;
+    color: #0072b9;
+}
+
+.main-slider-two__points li .text {
+    margin-left: 5px;
+}
+
+.main-slider-two__points li .text p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-slider-two__btn-box {
+    position: relative;
+    color: #fff;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+}
+.visio{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.left-side{
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.left-side .h3{
+    font-size: medium;
+}
+.elementor-75 .elementor-element.elementor-element-2e6edb20>.elementor-element-populated{padding:0}.elementor-75 .elementor-element.elementor-element-762999b{color:#fff;font-family:dm sans,Sans-serif;font-size:16px;font-weight:400;line-height:26px;letter-spacing:.5px}.elementor-75 .elementor-element.elementor-element-762999b>.elementor-widget-container{margin:0;padding:0}
